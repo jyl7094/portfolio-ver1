@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     position: "relative",
     height: "600px",
     right: "10%",
-    padding: "2.5rem 5rem",
+    padding: "2.5rem 8rem",
   },
   textStyle: {
     textAlign: "left",
@@ -64,11 +64,10 @@ export default function Header() {
             <h1>About me</h1>
             <hr
               style={{
-                marginTop: "1px",
                 border: "none",
                 backgroundColor: "#CCC",
                 height: "1px",
-                margin: "0 auto",
+                margin: "1px auto 0",
                 width: "20%",
               }}
             />
@@ -80,7 +79,9 @@ export default function Header() {
               </p>
               <br />
               <br />
-              <h3 style={{ textAlign: "center" }}>Contact</h3>
+              <h2 style={{ textAlign: "center", fontSize: "1.6rem" }}>
+                Contact
+              </h2>
               <br />
               <p>
                 <span className={classes.spaceStyle}>
@@ -96,7 +97,9 @@ export default function Header() {
               </p>
               <br />
               <br />
-              <h3 style={{ textAlign: "center" }}>Education</h3>
+              <h2 style={{ textAlign: "center", fontSize: "1.6rem" }}>
+                Education
+              </h2>
               <br />
               <p>
                 <strong>George Mason University</strong>
@@ -107,9 +110,15 @@ export default function Header() {
               <p>Computer Science</p>
               <br />
               <br />
-              <h3 style={{ textAlign: "center" }}>Skills</h3>
+              <h2 style={{ textAlign: "center", fontSize: "1.6rem" }}>
+                Skills
+              </h2>
               <br />
-              Java, Javascript, Python, C, HTML/CSS, Bootstrap, Material UI, jQuery, EJS, SCSS, Node.js, React, Angular, Express, Mongoose, SQL, NoSQL, MongoDB, Git, Unix, Windows, & iOS
+              <p>
+                Java, Javascript, Python, C, HTML/CSS, Bootstrap, Material UI,
+                jQuery, EJS, SCSS, Node.js, React, Angular, Express, Mongoose,
+                SQL, NoSQL, MongoDB, Git, Unix, Windows, & iOS
+              </p>
             </div>
           </Grid>
         </Grid>
